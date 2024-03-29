@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    int rec_len,rec_wid,area;
+    scanf("%d%d",&rec_len,&rec_wid);
+    area=rec_len*rec_wid;
+    printf("%d",area);
+}
