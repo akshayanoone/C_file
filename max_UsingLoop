@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    /*max of two number using if else loop*/
+     int a,b;
+    scanf("%d%d",&a,&b);
+    {
+        if(a>b)
+        printf("a is maximum");
+        else U
+        printf("b is maximum");
+}
+    return 0;
+}
