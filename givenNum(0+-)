@@ -1,0 +1,14 @@
+int main() {
+    /*checking given number is + or - or 0 using if else loop*/
+     int a;
+    scanf("%d",&a);
+    {
+        if(a==0)
+        printf("given number is zero %d",a);
+        else if (a>0) 
+        printf("given number is positive %d",a);
+        else
+        printf("given number is negative %d",a);
+}
+    return 0;
+}
