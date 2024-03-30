@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    /*checking given year is leap yr or not using if loop */
+     int yr;
+    scanf("%d",&yr);
+    {
+        if((yr%4==0) && (yr%100!=0) || (yr%400==0))
+        printf("leap year ");
+        else
+        printf("common year");
+}
+    return 0;
+}
