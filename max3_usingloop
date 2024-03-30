@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    /*max of three number using if else loop*/
+     int a,b ,c;
+    scanf("%d%d%d",&a,&b,&c);
+    {
+        if(a>b)
+        printf("a is maximum");
+        else if (b>c) 
+        printf("b is maximum");
+        else
+        printf("c is maximum");
+}
+    return 0;
+}
