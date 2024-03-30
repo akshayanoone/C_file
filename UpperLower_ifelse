@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    /*checking whether given character upper case or lower case using if else loop */
+     char ch;
+    scanf("%c",&ch);
+    {
+        if(ch>='a'|| ch>='z')
+        printf("Given character lower case");
+        else 
+        printf("Given character upper case");
+}
+    return 0;
+}
