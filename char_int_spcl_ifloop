@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    /*checking whether given character is or alphabet or digit or special  using ifelse loop */
+     char ch;
+    scanf("%c",&ch);
+    {
+        if((ch>='a'|| ch>='z') && (ch>='A'|| ch<='Z'))
+        printf("Given character is alphabet");
+         else if (ch>='0'&& ch<='9')
+        printf("Given character is digit ");
+        else 
+        printf("Given character is special");
+}
+    return 0;
+}
