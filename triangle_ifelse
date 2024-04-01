@@ -1,0 +1,17 @@
+int main() {
+    /*To check whether a triangle is valid or not if angles are given using if else*/
+    int a, b,c, sum;
+    scanf("%d%d%d",&a,&b,&c);
+    {
+        sum=a+b+c;
+    }
+    {
+        if(sum==180 && a>0 && b>0 && c>0)
+         printf("triangle is valid");
+         else
+          printf("triangle is not valid");
+    }
+   
+
+    return 0;
+}
