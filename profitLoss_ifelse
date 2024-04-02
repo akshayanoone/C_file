@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+    /* calculate total profit or loss using if else*/ 
+    int sp,cp,amt;
+    scanf("%d%d",&sp,&cp);
+        if(sp>cp)
+        {
+        amt=sp-cp;
+        printf("profit =%d",amt);
+        }
+     else if(sp<cp)
+     {
+            amt=cp-sp;
+            printf("loss=%d",amt);
+     }
+     else
+       {
+           printf("no loss and no profit");
+        }
+  return 0;
+}
